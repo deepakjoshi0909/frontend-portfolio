@@ -1,0 +1,52 @@
+/* src/components/Navbar.css */
+
+/* Logo styling */
+.logo {
+  font-size: 1.8rem; /* Increase font size for the logo */
+  font-weight: bold; /* Make logo text bold */
+  color: #ffffff; /* White color for better contrast */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+/* Active logo color */
+.logo.active {
+  color: #ffb74d; /* Color when logo is clicked */
+}
+
+/* Navbar link styles */
+.nav-link {
+  font-size: 1.1rem; /* Font size for navigation links */
+  position: relative; /* For positioning pseudo-elements */
+  transition: color 0.3s ease; /* Smooth transition for color change */
+}
+
+.nav-link:hover {
+  color: #ffb74d; /* Change color on hover */
+}
+
+/* Adding a pseudo-element for a custom underline effect */
+.nav-link:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background: #ffb74d; /* Color for the underline */
+  transition: width 0.3s ease; /* Smooth transition for width change */
+  margin-top: 5px; /* Spacing between text and underline */
+}
+
+.nav-link:hover:after {
+  width: 100%; /* Underline expands to full width on hover */
+}
+
+/* Shadow effect for navbar */
+.shadow-sm {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Light shadow effect */
+}
+
+/* Media Queries for responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+      background-color: #343a40; /* Dark background for mobile */
+  }
+}

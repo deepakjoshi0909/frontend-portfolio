@@ -1,0 +1,83 @@
+/* ProjectsSection.css */
+
+/* Section styling */
+.section {
+  background-color: #222; /* Match this to your other sections */
+  color: white; /* Text color for contrast */
+}
+
+  .project-heading{
+    font-size: 2.5rem;
+    color: #f39c12; /* Bright color for heading (e.g., golden) */
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Card styling */
+  .project-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    overflow: hidden;
+    border-radius: 10px; /* Rounded corners for the cards */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    background-color: #333; /* Card background */
+    color: #fff; /* Card text color */
+  }
+  
+  /* Card hover effects */
+  .project-card:hover {
+    transform: scale(1.05); /* Scale effect on hover */
+    transition: transform 0.3s ease; /* Smooth transition */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Card image transition */
+  .card-img-top {
+    transition: transform 0.4s ease;
+  }
+  
+  /* Image hover effects */
+  .project-card:hover .card-img-top {
+    transform: scale(1.1);
+  }
+  
+  /* Title and text styles */
+  .card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+    transition: color 0.3s ease;
+  }
+  
+  .card-title:hover {
+    color: #0056b3;
+  }
+  
+  /* Text styling */
+  .card-text {
+    color: #666;
+    transition: color 0.3s ease;
+  }
+  
+  .card-text:hover {
+    color: #333;
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin-right: 10px;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .project-card {
+      margin-bottom: 30px; /* Increased spacing for mobile */
+    }
+  }
+  

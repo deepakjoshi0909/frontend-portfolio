@@ -1,0 +1,48 @@
+/* AboutSection.css */
+.section {
+  padding: 60px 0;
+}
+
+.bg-dark {
+  background-color: #343a40; /* Dark background color */
+}
+
+.about-heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff; /* White text color */
+  margin-bottom: 40px;
+  text-transform: uppercase;
+}
+
+.timeline {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline li {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.timeline-icon {
+  background: #007bff; /* Customize icon background color */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: -20px; /* Adjust position to align the icon */
+  top: 10px;
+}
+
+.timeline-content {
+  padding-left: 60px; /* Space for timeline icon */
+}
+
+.timeline-content h5 {
+  color: #fff; /* White heading color */
+}
+
+.timeline-content p {
+  color: #ccc; /* Light gray text for paragraphs */
+}
