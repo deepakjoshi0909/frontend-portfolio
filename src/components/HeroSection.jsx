@@ -15,7 +15,7 @@ const HeroSection = () => {
           </div>
           <h1 className="hero-title">Hello, I'm</h1>
           <h2 className="hero-name">Deepak Joshi</h2>
-          <p className="lead">Web Developer | Problem Solver | Web </p>
+          <p className="lead">Web Developer | Problem Solver </p>
           <a href="#projects" className="btn btn-light btn-lg animate__animated animate__pulse animate__infinite">View My Work</a>
           <div className="social-icons mt-4">
             <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="icon-link"><i className="fab fa-github"></i></a>
